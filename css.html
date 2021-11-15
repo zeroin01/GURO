@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cs001{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cs001>li{
+            width: 150px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            background: linear-gradient(to top, pink,rgb(255, 151, 151));
+            /* background-color: rgb(255, 133, 133); */
+            float: left;
+            
+        }
+        .cs001 li ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .cs001 li ul li{
+            font-size: 13px;
+            color: rgb(235, 77, 77);
+            background-color: rgb(255, 218, 218);
+            border-bottom: 1px solid #ffffff;
+            display: none;
+            
+        }
+        .cs001 li:hover ul li{
+            display: block;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(88, 13, 13);
+            transition: 0.3s;
+        }
+        a:hover{
+            color: #f75252;
+        }
+
+        .top_box{
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            position: fixed;
+            top
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <ul class="cs001">
+        <li>A
+            <ul>
+               <li><a href="#">스타일</a></li>
+               <li><a href="#">웹표준</a></li>
+               <li><a href="#">마크업</a></li>
+            </ul>
+        </li>
+        <li>B
+            <ul>
+                <li><a href="#">스타일</a></li>
+               <li><a href="#">웹표준</a></li>
+               <li><a href="#">마크업</a></li>
+            </ul>
+        </li>
+        <li>C
+            <ul>
+                <li><a href="#">스타일</a></li>
+                <li><a href="#">웹표준</a></li>
+                <li><a href="#">마크업</a></li>
+            </ul>
+        </li>
+        <li>D
+            <ul>
+                <li><a href="#">스타일</a></li>
+                <li><a href="#">웹표준</a></li>
+                <li><a href="#">마크업</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="top_box">
+
+    </div>
+</body>
+</html>
